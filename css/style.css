@@ -1,0 +1,222 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #F3F5FC;
+}
+
+header {
+    position: static;
+    padding: 0%;
+    width: auto;
+    height: 48px;
+    left: 48px;
+    right: 48px;
+    margin-top: 5px;
+}
+
+header img {
+
+    padding: 10px;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #0A3871;
+    padding: 30px;
+    text-shadow: #558ABB -1.5px 1px;
+}
+main{
+    width: auto;
+}
+section{
+    width: auto;
+}
+
+h5{
+    text-align: left;
+    font-weight: bold;
+    color: lightcoral;
+    margin-left: 2%;
+}
+.form{
+    width: auto;
+}
+.box1 {
+    position: relative;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 65%;
+    height: 250px;
+    background: #D7E2E6;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.info-texto {
+    position: relative;
+    margin-left: 20%;
+    font-style: italic;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: #0A3871;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+.entrada {
+    display: inline-block;
+    width: 55%;
+    margin-top: 0%;
+    margin-left: 20%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.boton-encriptar {
+    
+    position: relative;
+    font-weight: bold;
+    display: inline;
+    width: 120px;
+    height: 14%;
+    margin-left: 20%;
+    margin-top: 2%;
+    background: #0A3871;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 24px;
+    text-align: center;
+    padding: 10px;
+    color: azure;
+    box-shadow: #558ABB -4px 4px;
+
+}
+
+.form button:hover {
+    background-color: #558ABB;
+    transition: all;
+    box-shadow: #558ABB -0px 0px;
+    color: #ffffff;
+}
+
+.boton-desencriptar {
+    position: relative;
+    font-weight: bold;
+    display: inline;
+    width: 120px;
+    height: 14%;
+    margin-left: 32%;
+    margin-top: 2%;
+    background: #D8DFE8;
+    box-sizing: border-box;
+    border-radius: 24px;
+    text-align: center;
+    padding: 10px;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    box-shadow: #558ABB -4px 4px;
+}
+
+.box2 {
+    position: relative;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 65%;
+    height: 250px;
+    background: #D7E2E6;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.salida {
+    display: static;
+    width: 55%;
+    height: 40%;
+    margin-top: 5%;
+    margin-left: 20%;
+    padding: 5px;
+    color: #0A3871;
+    font-size: 25px;
+}
+
+.boton-copiar {
+    position: relative;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline;
+    width: 120px;
+    height: 14%;
+    margin-left: 20%;
+    margin-top: 2%;
+    background: #D8DFE8;
+    box-sizing: border-box;
+    border-radius: 24px;
+    text-align: center;
+    padding: 10px;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    box-shadow: #558ABB -4px 4px;
+}
+
+aside {
+    display: inline;
+    position: relative;
+    width: auto;
+    background: #cccccc;
+
+}
+
+.box3 {
+    display: block;
+    position: relative;
+    margin-top: -675px;
+    width: 25%;
+    height: 650px;
+    background: #ffffff;
+    margin-left: 72%;
+    padding: 10px;
+    border-radius: 20px;   
+    margin-bottom: 100px;
+}
+
+.mensaje {
+    margin-top: 15%;
+    text-align: center;
+    font-style: normal;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 150%;
+    color: #079509;
+    font-weight: bold;
+}
+
+.dibujo {
+    margin-top: 25%;
+    justify-content: center;
+    
+
+}
+
+.footer {
+    height: 100px;
+    background: #0A3871;
+}
+
+.h6 {
+    padding-top: 45px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 100;
+    text-align: center;
+}
+
+@media screen and (max-widht:460px) {
+    
+    body, main, section .dibujo .footer {
+        width: auto;
+    }
+
+}

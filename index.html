@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Montserrat:wght@300&family=Open+Sans&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador de Palabras</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/Vector.png" alt="imagen">
+    </header>
+    <h1 class="titulo">ENCRIPTADOR DE PALABRAS</h1>
+    <main>
+        <section>
+            <h5> &#9888; ATENCION !! No ingrese palabras con acentos ni caracteres especiales.</h5>
+            <form class="form">
+                <div class="box1">
+                    <p class="info-texto">Ingresa el texto que desees encriptar o desencriptar</p>
+                    <input class="entrada" name="texto-entrada" type="text">
+                    <button class="boton-encriptar" type="submit" value="encriptar"><h2>ENCRIPTAR</h2></button>
+                    <button class="boton-desencriptar" type="submit" value="desencriptar"><h2>DESENCRIPTAR</h2></button>
+                </div>
+                <div class="box2">
+                    <textarea class="salida" name="pantalla" ></textarea>
+                    <button class="boton-copiar" type="submit" value="copiar"><h2>COPIAR</h2></button>
+                </div>
+            </form>
+            <div class="box3">
+                <p class="mensaje">Ningúna palabra Ingresada</p>
+                <img class="dibujo" srcset="img/Muñeco.png" width="100%" alt="">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div >
+            <h6 class="h6">Realizado por Dante Nicolás Martínez - San Rafael Mendoza - Argentina - Año 2022 -
+                Primer Challenger Alura Latam</h6>
+        </div>
+    </footer>
+    <script src="js/encriptar.js"></script>
+    <script src="js/desencriptar.js"></script>
+    <script src="js/copiarFrase.js"></script>
+</body>
+
+</html>
